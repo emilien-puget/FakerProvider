@@ -1,0 +1,14 @@
+{
+  "name": "emilienpuget/faker-provider",
+  "license": "MIT",
+  "type": "symfony-bundle",
+  "description": "Some faker provider for nelmio/alice",
+  "autoload": {
+    "psr-4": {
+      "EmilienPuget\\FakerProvider\\": ""
+    }
+  },
+  "require": {
+    "nelmio/alice": "^3.1"
+  }
+}

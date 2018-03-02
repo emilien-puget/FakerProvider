@@ -1,0 +1,9 @@
+services:
+    Faker\Generator: ~
+
+    FakerProvider\Provider\SymfonyPasswordProvider:
+        arguments:
+            - '@nelmio_alice.faker.generator'
+            - '@security.encoder_factory.generic'
+        public: true
+        tags: ['nelmio_alice.faker.provider']
