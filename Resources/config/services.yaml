@@ -1,7 +1,7 @@
 services:
     Faker\Generator: ~
 
-    FakerProvider\Provider\SymfonyPasswordProvider:
+    EmilienPuget\FakerProvider\SymfonyPasswordProvider:
         arguments:
             - '@nelmio_alice.faker.generator'
             - '@security.encoder_factory.generic'
